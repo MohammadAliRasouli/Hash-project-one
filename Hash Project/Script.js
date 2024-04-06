@@ -1,4 +1,3 @@
-console.log("Hi this is mmd");
 window.addEventListener("hashchange" , (e)=>{ router() })
 function router(){switch(location.hash){
      case "" : render( {Title: "HOME" , color:"red" , href:"#home" })
